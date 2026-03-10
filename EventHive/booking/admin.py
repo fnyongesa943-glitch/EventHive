@@ -1,4 +1,4 @@
 from django.contrib import admin
-from .models import Orginizer
+from .models import Booking
 
-admin.site.register(Orginizer)
+admin.site.register(Booking)
