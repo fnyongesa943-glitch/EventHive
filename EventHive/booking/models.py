@@ -2,7 +2,7 @@ from django.db import models
 from user.models import User
 from event.models import Event
 
-class UserBooking(models.Model):
+class booking(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     event = models.ForeignKey(Event, on_delete=models.CASCADE)
     tickets_booked = models.IntegerField()
